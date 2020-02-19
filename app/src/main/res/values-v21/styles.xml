@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--customized theme for api level 21+-->
+    <style name="AppMaterialTheme" parent="AppSuperTheme">
+
+    </style>
+
+</resources>

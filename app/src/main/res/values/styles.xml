@@ -1,7 +1,16 @@
 <resources>
 
+
+    <!--Customized theme for API level < 21 Design-->
+    <style name="AppMaterialTheme" parent="AppSuperTheme">
+
+    </style>
+
+
+
+
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppSuperTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
