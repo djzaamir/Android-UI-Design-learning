@@ -10,11 +10,19 @@
 
 
     <!-- Base application theme. -->
-    <style name="AppSuperTheme" parent="Theme.AppCompat">
+    <style name="AppSuperTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+
+        <item name="android:navigationBarColor">#f00</item>
     </style>
 
 </resources>
